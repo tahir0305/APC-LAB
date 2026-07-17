@@ -9,3 +9,10 @@ while num%2==0:
     break
 else:
     print("Odd")
+
+#for-else loop to print numbers from num to 1
+for i in range(num,0,-1):
+    print(i)
+
+else:
+    print("Loop finished")    
